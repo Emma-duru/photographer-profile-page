@@ -15,6 +15,11 @@ h2 {
     width: 100%;
 }
 
+#work, #contact, #footer {
+    text-align: center;
+}
+
+/* Header Styling */
 .header {
     padding: 2% 0
 }
@@ -23,6 +28,7 @@ h2 {
     margin-top: 1em;
 }
 
+/* HR Tag Styling */
 hr {
     border: 6px dotted #bbb;
     border-bottom: none;
@@ -30,14 +36,12 @@ hr {
     margin: 10% auto;
 }
 
+/* Work Section Styling */
 .work-img {
     margin: 5% auto;
 }
 
-#work, #contact, #footer {
-    text-align: center;
-}
-
+/* Contact Section Styling */
 form {
     width: 50%;
     margin: auto;
@@ -51,6 +55,7 @@ input[type=text], input[type=email], textarea {
     border: 0.5px solid #777;
 }
 
+/* Footer Styling */
 #footer {
     padding: 3%;
     margin-top: 7%;
