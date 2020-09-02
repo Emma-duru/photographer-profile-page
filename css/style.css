@@ -1,12 +1,33 @@
-.about-img, .work-img {
-    width: 100%;
-}
-
 * {
     margin: 0;
     padding: 0;
     font-family: 'Arial Narrow', Helvetica, sans-serif;
     color: #444;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.about-img, .work-img {
+    width: 100%;
+}
+
+.header {
+    padding: 2% 0
+}
+
+.logo {
+    margin-top: 1em;
+}
+
+hr {
+    border: 6px dotted #bbb;
+    border-bottom: none;
+    width: 6%;
+    margin: 10% auto;
 }
 
 .work-img {
@@ -32,6 +53,7 @@ input[type=text], input[type=email], textarea {
 
 #footer {
     padding: 3%;
+    margin-top: 7%;
 }
 
 .footer-link {
