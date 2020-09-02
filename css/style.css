@@ -13,6 +13,23 @@
     margin: 5% auto;
 }
 
+#work, #contact {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5% auto;
+    border-radius: 5px;
+    border: 0.5px solid #777;
+}
+
 /*h1 {
     text-transform: uppercase;
     text-align: center;
