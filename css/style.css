@@ -19,6 +19,10 @@ h2 {
     text-align: center;
 }
 
+.nav-item {
+    padding: 0 1em;
+}
+
 /* Header Styling */
 .header {
     padding: 2% 0
@@ -26,6 +30,11 @@ h2 {
 
 .logo {
     margin-top: 1em;
+}
+
+/* About Section Styling */
+.about-text {
+    text-align: justify;
 }
 
 /* HR Tag Styling */
@@ -63,4 +72,11 @@ input[type=text], input[type=email], textarea {
 
 .footer-link {
     margin: 0 0.5em;
+}
+
+/* Small Screens */
+@media (max-width: 576px) {
+    form {
+        width: 80%;
+    }
 }
